@@ -31,6 +31,10 @@ gem 'devise'
 gem 'gibbon'
 gem 'dotenv-rails', :groups => [:development]
 
+gem 'letter_opener', group: :development
+
+gem 'mandrill-api'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
