@@ -8,4 +8,3 @@ gem 'mandrill-api'
 
 gem 'dotenv-rails', group: :development
 gem 'letter_opener', group: :development
-gem 'webmock', group: :test
