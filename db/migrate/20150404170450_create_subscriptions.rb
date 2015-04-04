@@ -1,6 +1,6 @@
-class AddCategorySubscriptions < ActiveRecord::Migration
+class CreateSubscriptions < ActiveRecord::Migration
   def change
-    create_table :category_subscriptions do |t|
+    create_table :subscriptions do |t|
       t.references :category, index: true
       t.references :user
       t.timestamps
