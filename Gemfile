@@ -9,4 +9,3 @@ gem 'mandrill-api'
 gem 'dotenv-rails', group: :development
 gem 'letter_opener', group: :development
 gem 'webmock', group: :test
-gem 'rspec-rails', '~> 3.2', groups: [:development, :test]
